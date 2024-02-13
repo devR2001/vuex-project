@@ -12,7 +12,7 @@ export default {
     },
     logout() {
       this.$store.dispatch('logout');
-    },
+    }
   },
   computed: {
     isAuth() {
@@ -20,7 +20,7 @@ export default {
     },
     isTestAuth() {
       return this.$store.getters.testAuth;
-    },
-  },
-};
+    }
+  }
+}
 </script>
